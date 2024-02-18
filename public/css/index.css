@@ -1,0 +1,45 @@
+@page {
+	size: letter;
+	margin: 0.125in;
+}
+
+@media print {
+
+	nav {
+		display: none;
+	}
+
+	h1 {
+		font-size: 8.6rem;
+	}
+
+	h2 {
+		font-size: 4.4rem;
+	}
+
+	h3 {
+		font-size: 2.8rem;
+	}
+
+	article {
+		height: 100vh;
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+	h1 {
+		font-size: 6rem;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+	}
+	.is-full-screen {
+		min-height: auto;
+	}
+}
